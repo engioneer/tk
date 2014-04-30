@@ -1,0 +1,240 @@
+
+body {
+
+  min-width: 502px;
+
+  color: #003;
+
+  background-color: #34495e;
+
+}
+
+.text-muted {
+
+  color: #7F7F9F;
+
+}
+
+.blur {
+
+  filter: url('filters.svg#blur10');
+
+  -webkit-filter: blur(10px);
+
+}
+
+.center-block {
+
+  float: none;
+
+}
+
+.page-header {
+
+  border-bottom: none;
+
+}
+
+section {
+
+  padding: 15px 0px;
+
+}
+
+p {
+
+  text-indent: 2em;
+
+}
+
+.header {
+
+  width: 100%;
+
+  height: 500px;
+
+  position: relative;
+
+}
+
+.bg,
+
+.info {
+
+  width: 100%;
+
+  height: 100%;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+info {
+
+  z-index: 10;
+
+}
+
+.header-bg {
+
+  background-image: url(../images/header.jpg);
+
+  background-size: cover;
+
+  background-position: center bottom;
+
+}
+
+.header-info .container {
+
+  padding-top: 180px;
+
+}
+
+@media screen and (min-width: 505px) {
+
+  .header-info .container {
+
+    padding-top: 250px;
+
+  }
+
+}
+
+.page-header .h1 {
+
+  color: #ECF0F1;
+
+  filter: url('filters.svg#inset-shadow');
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+
+  .page-header .h1 {
+
+    text-shadow: 0px -1px 0px #BDC3C7;
+
+  }
+
+  .page-header .h3 {
+
+    text-shadow: 0px -1px 0px #27AE60;
+
+  }
+
+}
+
+.page-header .h3 {
+
+  color: #2ECC71;
+
+  filter: url('filters.svg#inset-shadow');
+
+}
+
+#about {
+
+  background-color: #F39C12;
+
+}
+
+#skills {
+
+  background-color: #F1C40F;
+
+}
+
+#portfolio {
+
+  background-color: #E67E22;
+
+}
+
+#contacts {
+
+  color: #16a085;
+
+  font-size: 150px;
+
+  padding: 0;
+
+}
+
+.border-left {
+
+  border-left: 2px;
+
+  border-left-color: #34495e;
+
+  border-left-style: solid;
+
+}
+
+.border-right {
+
+  border-right: 2px;
+
+  border-right-color: #34495e;
+
+  border-right-style: solid;
+
+}
+
+a:hover {
+
+  cursor: pointer;
+
+}
+
+#portfolio a {
+
+  color: inherit;
+
+}
+
+.top-padding {
+
+  padding-top: 54px;
+
+}
+
+.navigation {
+
+  width: 100%;
+
+  z-index: 100;
+
+  bottom: -53px;
+
+}
+
+.affix {
+
+  visibility: visible;
+
+  top: 0;
+
+  height: 53px;
+
+}
+
+.navbar {
+
+  border-radius: 0;
+
+  margin-bottom: 0px;
+
+}
+
+.affix-top .navbar {
+
+  margin-top: -53px;
+
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
